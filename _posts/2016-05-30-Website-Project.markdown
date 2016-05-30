@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Getting Started!"
+title:  "This website!"
 date:   2016-05-26 22:48:22 -0400
 categories: project
 ---
-This website project 
-
+I am using this website as a way to motivate and teach myself HTML,CSS, and various other languages.
 
 {% include image.html
             img="charlesfayal.github.io/images/Linkedinphoto.jpg"
