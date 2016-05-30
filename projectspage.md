@@ -3,7 +3,7 @@
 layout: default
 ---
 
-<div class="home">
+<div class="projects">
 
   <h1 class="page-heading">Posts</h1>
   <h1> I am just starting to work on my site, hold on!</h1>
