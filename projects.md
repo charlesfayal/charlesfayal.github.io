@@ -3,8 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-layout: default
----
+
 
 <div class="home">
 
