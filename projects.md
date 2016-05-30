@@ -3,23 +3,21 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
----
----
 layout: default
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  <h1> I am just starting to work on my site, hold on!</h1>
+  <h1 class="page-heading">Projects</h1>
+  <h1>Here are my personal projects!</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for project in site.projects %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
         </h2>
       </li>
     {% endfor %}
