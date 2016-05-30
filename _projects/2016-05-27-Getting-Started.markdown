@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "This website project!"
 date:   2016-05-26 22:48:22 -0400
 categories: First Project
