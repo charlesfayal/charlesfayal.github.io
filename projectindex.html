@@ -10,13 +10,13 @@ permalink: /projects/
   <h1 class="page-heading">Projects</h1>
   <h1>Here are my personal projects!</h1>
 
-  <ul class="project-list">
-    {% for project in site.projects %}
+  <ul class="post-list">
+    {% for post in site.projects %}
       <li>
-        <span class="project-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
