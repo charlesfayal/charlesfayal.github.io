@@ -1,8 +1,8 @@
-
 ---
-layout: default
+layout: page
+title: About
+permalink: /about/
 ---
-
 <div class="projects">
 
   <h1 class="page-heading">Posts</h1>
